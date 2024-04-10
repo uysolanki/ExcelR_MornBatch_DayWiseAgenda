@@ -1,0 +1,188 @@
+https://elearning.excelr.com/dashboard/mentor
+11-March-2024
+Day 6 : Introduction to OOP
+		class creation
+		object creation
+		public & private specefiers
+		Data hiding
+		this keyword
+
+
+12-March-2024		
+Day 7 : Array Of Objects - searching by rno, name
+		Function Overloading
+		4 Types of Constructors(default,non-parameterised/nonArgs,Parameterised,copy)
+		Call By Reference(Priyanka & Priya Theorem)
+		assignment : 
+		class Player(jno, pname, mp, rs, no, avg)
+		Array Of Objects 5 size
+		calculate average
+		display records (jno, pname, mp, rs, no, avg)  of All players
+		search player by jno + search player by pname
+		display records (jno, pname, mp, rs, no, avg)  of player with max avg
+		
+		Interview Question :
+		how many constructors in java?
+		how is an object passed to a function? by value byref ?
+		how is an Array passed to a function? by value byref ?
+		size of an array (length)
+		break keyword in java : terminate the loop 
+		What is function overloading
+		is Inheritance needed for o=function overloading? not required
+
+13-March-2024		
+Day 8 : Setter Getter Functions
+		Static - data, method,block
+		Scope of Variable - local variable, instance variable , class variable
+		Assignment 
+		Product(pno, pname, qty, price)
+		display total number of products purchased(use static data/method).
+		
+Monday 18th March 
+9am offline
+5 minutes per candiate
+3-4 slides 
+
+Suraj : String builtIn functions
+Kedar : Class & Objects in Java
+Gayatri : OOPs concepts(Polymorpism)& Its types
+Krushna : Constructor & its types
+Ritesh : Call By Value / Call By Reference  (with examples)
+Vishal : OOPs concepts(Inheritance) & Its types
+Ashish : OOPs concepts(Data hiding & Encapsulation)
+Abhishek: OOPs concepts (Abstraction)
+Swajit: Setter Getter
+Aditya:  Scope of Variable in java & thier 3 types (local,instance,static)
+Gaurav:  Static - Data + method
+Aakanksha: Array Of Objects + for loop + for each loop
+Roshni:  Access Specefier in java - public , private
+Sandesh :  this keyword & Searching techniques(linear & binary)
+Gaurav Bharti : Access Specefiers In Java
+
+
+3-4 slides
+5 minutes
+
+14-March-2024		
+Day 9 : Inheritance types
+		Packages, make class public if u wish to import
+		Access Specefiers
+		super keyword
+		
+		Assignment 
+		Account(cust_adhar, cust_name)
+		SavingAccount(SavingAccountNo, SavingAccountBal)
+		CurrentAccount(CurrentAccountNo, CurrentAccountBal)
+		
+		make 2 objects of SavingAccount 
+		(1 object with Parameterised Constructor, use super
+		(1 object with WithoutParameterised Constructor use super)
+		
+		display details of both account
+		use : super
+		
+		display total number of products purchased(use static data/method).
+
+15-March : sick leave
+16-17 : Sat Sun
+18- TP
+19		Abstract start
+20		Factory Pattern
+21      Factory Pattern (Turf with Single Factory)
+22		Abstract Factory - (Turf with Multiple Factory)Factory of Factories
+
+26 - OBJECT CLASS +
+	 Exception Handling part 1
+	 1. DEFINATION (done)
+	 2. CATEGORIES OF EXCEPTION - Checked & UnChecked (done)
+	 3. EXCEPTION CLASS HIERRACHY (done)
+	 4. JAVA NATURAL REACTION WHEN AN EXCEPTION OCCURS
+	 5. SAMPLE PROGRAM 
+		- ARITHMETCIEXCEPTION,NULLPOINTER,INPUTMISMATCH
+	Assignment
+	
+	Solution:
+	String arr[]=s2.split(" ");
+	int intCounter=0;
+	int doubleCounter=0;
+	for(String st:arr)
+	{
+		try
+		{
+		int n1 =Integer.parseInt(st);
+		intCounter++;
+		}
+		catch(NumberFormatException e1)
+		{
+			try
+			{
+				double n2 =Double.parseDouble(st);
+				doubleCounter++;
+			}
+			catch(NumberFormatException e2)
+			{
+				
+			}
+		}
+	}
+	System.out.println("String has "+intCounter + " Integers");
+	System.out.println("String has "+ doubleCounter + " doubles");
+	
+
+	}
+}
+
+One Catch Multiple Exception
+
+catch(ArithmeticException|InputMismatchException e1)
+			{
+				System.out.println("Please enter valid data");
+				sc.nextLine();
+			}
+
+27-March  Exception handling part 2
+	6. Multiple Catch
+	7. Multiple Exception in a Single Catch Block
+	8. Nested Try
+
+28-March  Exception handling part 3
+
+	9. Finally
+	10. User Defined Exception
+	11. Interview Question of Finally 27LPA
+ 
+29-March  Exception handling part 4
+	12. Throws
+	13. Exception Delegation
+	14. Try with Resources
+	15. Diff between throw, throws, Throwable
+	16. Program : Invalid Login attempts, Invalid Username
+	
+	
+1-Apr : Banking Example
+
+2-Apr : Solid Principles Day 1 : Single Responsibilty Principle with examples
+		example 1 : Resume Repository
+		example 2 : Text Manipulator & Printer
+		
+3-Apr : Solid Principles Day 2 : Open Closed with examples
+		example 1 : Calculator
+		
+		
+4-Apr : Solid Principles Day 3 : Liskov Substitution Principle,Interface Segregation, Depenedecy Inversion
+		
+5-Apr  : Collection Framework
+		  DEFINATION
+		  Wrapper Classes
+		  HIERRACHY of class in CF
+		  methods of Collection Interface(Common methods of all the CF classes)
+
+8-Apr  : ArrayList : Display name of Student getting max marks
+		 List<ArrayList> : Display name of Student getting max marks yearwise fy sy ty
+		 
+9-Apr : holidday
+
+10-Apr : contains
+         sort
+		 Comparable
+		 Comparator
